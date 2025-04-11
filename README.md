@@ -1,1 +1,1 @@
-# soc-portfolio
+# SOC Portfolio
