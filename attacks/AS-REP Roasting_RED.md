@@ -48,7 +48,7 @@ hashcat -m 18200 asrep_hashes.txt /usr/share/wordlists/rockyou.txt
 ```
 Once cracked, I had low-level but valid credentials.
 
-## 🏁 Conclusion: Gaining Initial Access
+## 🏁 Gaining Initial Access
 
 This phase of the attack demonstrates how an attacker with no existing credentials can gain a foothold in an Active Directory environment by taking advantage of accounts that have Kerberos pre-authentication disabled.
 
