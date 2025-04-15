@@ -31,7 +31,7 @@ Welcome to my cybersecurity lab! This repo documents my hands-on practice simula
 ## 📁 Contents
 
 ### [attacks/](./attacks)
-Step-by-step walkthroughs of simulated attacks (recon, lateral movement, credential dumping)
+Step-by-step walkthroughs of simulated attacks 
 
 ### [detections/](./detections)
 Detection logic, Splunk searches, Sigma rules, baseline event log analysis
