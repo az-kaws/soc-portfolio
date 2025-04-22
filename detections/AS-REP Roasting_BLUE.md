@@ -28,3 +28,18 @@ This should help flag AS-REP roasting early
 
 ## 🧹 Hardening Steps
 After seeing how exposed this is, I’ll be auditing the domain for accounts with "Do not require Kerberos pre-authentication" enabled. That’s the main misconfig that makes AS-REP roasting possible.
+
+Using elevated PowerShell on the Domain Controller, I list accounts that have Kerberos pre-authentication disabled
+```
+Get-ADUser -Filter {DoesNotRequirePreAuth -eq $true} -Properties DoesNotRequirePreAuth | Select-Object Name, SamAccountName
+```
+
+If vulnerable accounts are found, I fix them by changing the userAccountControl value to remove the DONT_REQ_PREAUTH flag
+```
+$user = Get-ADUser -Identity "mag.auria" -Properties userAccountControl
+$newUAC = $user.userAccountControl -band (-bnot 0x400000)
+Set-ADUser -Identity "mag.auria" -Replace @{userAccountControl=$newUAC}
+```
+
+
+
