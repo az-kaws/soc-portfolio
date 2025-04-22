@@ -1,4 +1,4 @@
-# 🔵 Blue Team Detection and Response: AS-REP Roasting
+# 🔵 Detection and Response: AS-REP Roasting
 
 While testing AS-REP Roasting in my lab, I used Splunk Enterprise to monitor for signs of the attack. The goal was to detect Kerberos TGT requests that didn’t require pre-authentication, which is unusual in a typical environment.
 
