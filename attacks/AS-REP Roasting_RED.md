@@ -51,7 +51,10 @@ After retrieving AS-REP hashes, I used Hashcat to crack them offline. These hash
 hashcat -m 18200 asrep_hashes.txt /usr/share/wordlists/rockyou.txt
 ```
 ![HASHCAT](../assets/AS-REP/RED/5_HASHCAT.png)
-Once cracked, I had low-level but valid credentials.
+
+I now have access to two low level accounts:
+audry.florencia 159357
+mag.auria charles
 
 ---
 
