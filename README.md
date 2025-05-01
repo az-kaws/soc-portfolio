@@ -50,6 +50,8 @@ Screenshots and visuals to support documentation
 - Build detections and investigate attacks
 - Document and share my journey exploring the cybersecurity field
 
+---
+
 ## 💡 Currently Working on
 - Using credentials acquired from AS-REP Roasting to escalate privilege
 - Identifying lateral movement opportunities
