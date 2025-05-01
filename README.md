@@ -2,6 +2,12 @@
 
 Welcome to my cybersecurity lab! This repo documents my hands-on practice simulating real-world attacks and building detections using Splunk, Windows Event Logs, and common red team tools. My goal is to showcase my explorations and to document my skills gained using the lab.
 
+## 📌 Goals
+
+- Simulate full attack chains based on MITRE ATT&CK and Unified Kill Chain
+- Build detections and investigate attacks
+- Document and share my journey exploring the cybersecurity field
+
 ---
 
 ## 🔧 Lab Overview
@@ -44,11 +50,10 @@ Screenshots and visuals to support documentation
 
 ---
 
-## 📌 Goals
+## ✍️ Latest Additions
 
-- Simulate full attack chains based on MITRE ATT&CK and Unified Kill Chain
-- Build detections and investigate attacks
-- Document and share my journey exploring the cybersecurity field
+### [AS-REP Roasting Red Team](./attacks/AS-REP Roasting_RED.md)
+### [AS-REP Roasting Blue Team](./detections/AS-REP Roasting_BLUE.md)
 
 ---
 
@@ -56,5 +61,6 @@ Screenshots and visuals to support documentation
 - Using credentials acquired from AS-REP Roasting to escalate privilege
 - Identifying lateral movement opportunities
 - Establishing persistence mechanisms for long term access
+- Developing alert tuning skills for privilege escalation, lateral movement and persistence mechanisms
 
 
