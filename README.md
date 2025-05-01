@@ -10,6 +10,22 @@ Welcome to my cybersecurity lab! This repo documents my hands-on practice simula
 
 ---
 
+## 📁 Contents
+
+### [attacks/](./attacks)
+Step-by-step walkthroughs of simulated attacks 
+
+### [detections/](./detections)
+Detection logic, Splunk searches, Sigma rules, baseline event log analysis
+
+### [reports/](./reports)
+Mock incident reports and investigation summaries based on lab activity
+
+### [assets/](./assets)
+Screenshots and visuals to support documentation
+
+---
+
 ## 🔧 Lab Overview
 
 ### 🔹 Blue Team Tools
@@ -31,22 +47,6 @@ Welcome to my cybersecurity lab! This repo documents my hands-on practice simula
 
 ### 🌐 Infrastructure & Security
 - **pfSense:** Firewall and network segmentation between lab subnets
-
----
-
-## 📁 Contents
-
-### [attacks/](./attacks)
-Step-by-step walkthroughs of simulated attacks 
-
-### [detections/](./detections)
-Detection logic, Splunk searches, Sigma rules, baseline event log analysis
-
-### [reports/](./reports)
-Mock incident reports and investigation summaries based on lab activity
-
-### [assets/](./assets)
-Screenshots and visuals to support documentation
 
 ---
 
