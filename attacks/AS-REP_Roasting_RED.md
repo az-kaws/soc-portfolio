@@ -52,7 +52,7 @@ hashcat -m 18200 asrep_hashes.txt /usr/share/wordlists/rockyou.txt
 ```
 ![HASHCAT](../assets/AS-REP/RED/5_HASHCAT.png)
 
-I now have access to two low level accounts:
+I now have the credentials of two accounts:
 - audry.florencia 159357
 - mag.auria charles
 
