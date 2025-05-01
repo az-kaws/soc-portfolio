@@ -52,9 +52,9 @@ Screenshots and visuals to support documentation
 
 ## ✍️ Latest Additions
 
-### [AS-REP Roasting Red Team/](./attacks/AS-REP Roasting_RED.md)
+### [AS-REP Roasting Red Team](./attacks/AS-REP_Roasting_RED.md)
 
-### [AS-REP Roasting Blue Team/](./detections/AS-REP Roasting_BLUE.md)
+### [AS-REP Roasting Blue Team](./detections/AS-REP_Roasting_BLUE.md)
 
 ---
 
